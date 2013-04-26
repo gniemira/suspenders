@@ -31,6 +31,7 @@ module Suspenders
       invoke :create_suspenders_views
       invoke :create_common_javascripts
       invoke :add_jquery_ui
+      invoke :add_bootstrap_to_application_js
       invoke :configure_app
       invoke :setup_stylesheets
       invoke :copy_miscellaneous_files
