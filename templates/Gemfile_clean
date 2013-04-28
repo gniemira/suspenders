@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
+ruby '1.9.3'
 
 gem 'airbrake'
 gem 'bourbon'
-gem 'delayed_job_active_record'
 gem 'flutie'
 gem 'high_voltage'
 gem 'pg'
