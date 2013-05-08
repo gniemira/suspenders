@@ -112,6 +112,11 @@ module Suspenders
       build :add_jquery_ui
     end
 
+    def add_bootstrap_to_application_js
+      say "Adding bootstrap to standard application.js"
+      build :add_bootstrap_to_application_js
+    end
+
     def configure_app
       say 'Configuring app'
       build :configure_action_mailer
